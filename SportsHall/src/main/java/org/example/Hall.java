@@ -8,4 +8,8 @@ public class Hall {
     public Hall(List<SeatCategory> categories) {
         this.categories = categories;
     }
+
+    public List<SeatCategory> getCategories() {
+        return categories;
+    }
 }

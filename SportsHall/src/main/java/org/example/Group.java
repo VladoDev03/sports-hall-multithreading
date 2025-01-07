@@ -1,7 +1,7 @@
 package org.example;
 
 public class Group {
-    private int size;
+    private final int size;
 
     public Group(int size) {
         this.size = size;
